@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--  FONTE -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!--  CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <!--  Header -->
+    <header class="header">
+        <a href="#" class="logo">Danilo Medeiros</a>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#sobre">Sobre</a>
+            <a href="#servicos">Serviços</a>
+            <a href="#portfolio">Projetos</a>
+            <a href="#skills">Skills</a>
+            <a href="#contato">Contato</a>
+        </nav>
+    </header>
+
+    <!-- Home -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Olá, me chamo</h3>
+            <h1>Danilo Medeiros</h1>
+            <h3>E sou um <span class="multiple-text"></span></h3>
+            <p>Faculdade: <span>Análise e Desenvolvimento de Sistemas</span> | 2º Periodo</p>
+
+            <div class="social-media">
+                <a href=""><i class="fa-brands fa-facebook"></i></a>
+                <a href=""><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://www.instagram.com/nilo_medeh/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/danilo-medeiros-139b21291/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+
+        <a href="arq/CV.pdf" class="btn" target="_blank">Download Curriculo</a>
+        </div>
+
+        <div class="home-img">
+            <img src="img/perfil.png" alt="">
+        </div>
+    </section>
+
+    <!-- Sobre -->
+    <section class="sobre" id="sobre">
+        <div class="sobre-img">
+            <img src="img/perfil.png" alt="">
+        </div>
+
+        <div class="sobre-content">
+            <h2 class="heading">
+                Sobre <span>Mim</span>
+            </h2>
+            <h3>Desenvolvedor Web</h3>
+            <p>Olá! Me chamo Danilo, atualmente com 20 anos de idade e cursando Análise e Desenvolvimento de Sistemas na Unit - Universidade Tiradentes. Desde cedo, descobri minha paixão por criar soluções digitais que impactam positivamente a vida das pessoas.
+                Meu objetivo é me tornar um desenvolvedor web e de sistemas altamente capacitado, capaz de enfrentar os desafios do mundo digital com criatividade e excelência técnica. Estou constantemente buscando aprender novas tecnologias e aprimorar minhas habilidades de programação para oferecer soluções cada vez mais eficientes e inovadoras. 
+                Estou ansioso para colaborar em projetos desafiadores, contribuir com minha energia e conhecimento, e continuar crescendo profissionalmente neste emocionante campo da tecnologia.</p>
+            <a href="#" class="btn">Mais informação</a>
+        </div>
+    </section>
+
+    <!-- Serviços -->
+    <section class="servicos" id="servicos">
+        <h2 class="heading">Meus <span>Serviços</span></h2>
+
+        <div class="servicos-container">
+            <div class="servicos-box">
+                <i class="fa-solid fa-code"></i>
+                <h3>Desenvolvedor Web</h3>
+                <p>Um desenvolvedor web cria e mantém sites e aplicativos online, utilizando linguagens como HTML, CSS e JavaScript. Eu trabalho em equipe para garantir interfaces intuitivas e responsivas, visando uma boa experiência do usuário.</p>
+                <a href="#" class="btn">Mais informação</a>
+            </div>
+
+            <div class="servicos-box">
+                <i class="fa-solid fa-code"></i>
+                <h3>Desenvolvedor de Software</h3>
+                <p>Um desenvolvedor de software é um profissional que cria e mantém programas de computador e sistemas, dominando linguagens de programação e colaborando com equipes para desenvolver soluções tecnológicas eficientes e inovadoras.</p>
+                <a href="#" class="btn">Mais informação</a>
+            </div>
+        </div>
+    </section>
+
+    <!--  Portfolio -->
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">
+            <span>Projetos</span> Recentes
+        </h2>
+
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="img/img1.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>Designer Web</h4>
+                    <p>Aqui está o meu primeiro projeto que fiz para uma confeitaria/lanchonete!</p>
+                    <i-fa-solid class="fa-up-right-from-square"></i-fa-solid>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="img/vazio.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>Designer Web</h4>
+                    <p>Em andamento</p>
+                    <i-fa-solid class="fa-up-right-from-square"></i-fa-solid>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="img/vazio.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>Designer Web</h4>
+                    <p>Sem previsão</p>
+                    <i-fa-solid class="fa-up-right-from-square"></i-fa-solid>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="skills" id="skills">
+        <h2 class="heading">Minhas <span>Hards Skills</span></h2>
+
+        <div class="skills-container">
+            <div class="skills-card">
+                <div class="skills-box">
+                    <div class="skills-porcentagem">
+                        <svg>
+                            <circle cx="70" cy="70" r="70"></circle>
+                            <circle cx="70" cy="70" r="70"></circle>
+                        </svg>
+                        <div class="skills-numero">
+                            <h3>60<span>%</span></h3>
+                        </div>
+                    </div>
+                    <h3 class="skills-texto">HTML</h3>
+                </div>
+            </div>
+            <div class="skills-card">
+                <div class="skills-box">
+                    <div class="skills-porcentagem">
+                        <svg>
+                            <circle cx="70" cy="70" r="70"></circle>
+                            <circle cx="70" cy="70" r="70"></circle>
+                        </svg>
+                        <div class="skills-numero">
+                            <h3>50<span>%</span></h3>
+                        </div>
+                    </div>
+                    <h3 class="skills-texto">CSS</h3>
+                </div>
+            </div>
+            <div class="skills-card">
+                <div class="skills-box">
+                    <div class="skills-porcentagem">
+                        <svg>
+                            <circle cx="70" cy="70" r="70"></circle>
+                            <circle cx="70" cy="70" r="70"></circle>
+                        </svg>
+                        <div class="skills-numero">
+                            <h3>30<span>%</span></h3>
+                        </div>
+                    </div>
+                    <h3 class="skills-texto">JAVASCRIPT</h3>
+                </div>
+            </div>
+            <div class="skills-card">
+                <div class="skills-box">
+                    <div class="skills-porcentagem">
+                        <svg>
+                            <circle cx="70" cy="70" r="70"></circle>
+                            <circle cx="70" cy="70" r="70"></circle>
+                        </svg>
+                        <div class="skills-numero">
+                            <h3>40<span>%</span></h3>
+                        </div>
+                    </div>
+                    <h3 class="skills-texto">PYTHON</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!-- Contato -->
+    <section class="contato" id="contato">
+        <h2 class="heading">
+            <span>Entre</span> em Contato
+        </h2>
+
+        <form action="https://api.staticforms.xyz/submit" method="post">
+            <div class="input-box">
+                <input type="text" placeholder="Nome Completo" required>
+                <input type="email" placeholder="Informe seu E-mail" required>
+            </div>
+
+            <div class="input-box">
+                <input type="number" placeholder="Número Telefone" required>
+                <input type="text" placeholder="Assunto do E-mail" required>
+            </div>
+
+            <textarea name="" id="" cols="30" rows="10" placeholder="Sua Mensagem" required></textarea>
+            <input type="submit" value="Enviar Mensagem" class="btn">
+
+            <input type="hidden" name="accessKey" value="56ed9c89-46e8-457f-b15b-a6bc389b71b7">
+            <input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/Meu%20portfolio/index.html?#home">
+        </form>
+    </section>
+
+    <!-- Rodape -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy: 2024 by @Nilo_Medeh | Todos os Direitos Reservados</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home">
+                <i class="fa-solid fa-angle-up"></i>
+            </a>
+        </div>
+    </footer>
+
+    <!-- Typed Js -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <!-- Main Js -->
+    <script src="script.js"></script>
+</body>
+
+</html>
